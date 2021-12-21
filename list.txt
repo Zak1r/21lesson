@@ -1,0 +1,4 @@
+Elbek Khakimbekov;1999-03-31;23;male
+Shukhrat Jamolov;1991-12-16;30;male
+Aziza Fayzieva;2000-06-06;21;female
+Ramzi Yun;2007-03-12;14;male

@@ -38,3 +38,26 @@
 # print(type(True) == bool)
 # print(type(1) == int)
 
+
+# with open('./list.txt', 'r') as rf:
+#     lines = rf.readlines()
+#     numbers = []
+#     for line in lines:
+#         list = line.strip().strip(';')
+#         if len(list) == 1:
+#             numbers.append(list[0])
+    
+#     print(numbers)
+
+
+
+with open('./list.txt', 'r') as rf:
+    numbers = []
+    for line in rf:
+        line = line.strip()
+        if line.isdigit():
+            numbers.append(int(line))
+    print(numbers)
+
+
+    
